@@ -1,0 +1,8 @@
+---
+access_key_id: 'access key id'
+secret_access_key: 'aws access key'
+aws_region: 'yourregion'
+puppetdb: 'puppetdb hostname'
+private_key: "/opt/puppet/share/puppet-dashboard/certs/pe-internal-dashboard.private_key.pem" 
+cert: "/opt/puppet/share/puppet-dashboard/certs/pe-internal-dashboard.cert.pem" 
+ca_file: "/opt/puppet/share/puppet-dashboard/certs/pe-internal-dashboard.ca_cert.pem"
