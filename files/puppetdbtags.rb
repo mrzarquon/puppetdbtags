@@ -58,6 +58,6 @@ find_instances(client).each do |instance, certname|
   instance_tags[instance] = retrieve_services(certname, client)
 end
 
-puts instance_tags
+#puts instance_tags
 
 update_tags(instance_tags)
